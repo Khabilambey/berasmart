@@ -1,0 +1,148 @@
+.beras-product-reviews-module {
+  float: none;
+  border: none;
+  width: 100%;
+  clear: both;
+  display: block;
+  margin: 5px 0; }
+  .beras-product-reviews-module .bpr-products-module-container {
+    width: 100%;
+    display: block;
+    color: inherit;
+    padding: 15px;
+    margin: 0 auto; }
+    .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-heading {
+      line-height: 30px;
+      padding: 0 0 10px;
+      position: relative; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-heading .bpr-products-module-title {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700; }
+    .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      overflow: visible; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide {
+        /*display: block;*/
+        width: 100%;
+        margin: 0;
+        padding: 0; }
+        .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element {
+          display: inline-block;
+          /*float: left;*/
+          width: 25%;
+          text-align: center;
+          padding: 0 5px;
+          vertical-align: top;
+          margin-bottom: 15px; }
+          .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element .bpr-product-img {
+            text-align: center;
+            margin: 0 auto;
+            padding-bottom: 10px; }
+            .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element .bpr-product-img img {
+              /*height: 135px;*/
+              height: auto;
+              width: 100%; }
+          .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element .bpr-product-content .bpr-product-name {
+            max-height: 40px;
+            margin-bottom: 5px; }
+            .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element .bpr-product-content .bpr-product-name a {
+              color: inherit; }
+          .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element .bpr-product-content .bpr-product-star {
+            color: #ffbe00; }
+            .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element .bpr-product-content .bpr-product-star i {
+              font-size: 15px; }
+          .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element .bpr-product-content .bpr-product-price {
+            color: #3c0;
+            font-weight: 700; }
+            .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element .bpr-product-content .bpr-product-price .price {
+              color: inherit; }
+            .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element .bpr-product-content .bpr-product-price .bpr-product-oldprice {
+              color: #cacaca;
+              font-weight: normal;
+              text-decoration: line-through; }
+          .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body .bpr-products-module-slide .bpr-product-element p {
+            margin: 0;
+            padding: 0; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body.bpr-products-module-col-2 .bpr-product-element {
+        width: 50%; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body.bpr-products-module-col-3 .bpr-product-element {
+        width: 33.33%; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body.bpr-products-module-col-4 .bpr-product-element {
+        width: 25%; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body.bpr-products-module-col-5 .bpr-product-element {
+        width: 20%; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body.bpr-products-module-col-6 .bpr-product-element {
+        width: 16.66%; }
+    .beras-product-reviews-module .bpr-products-module-container .bpr-wrapper-outer {
+      overflow: hidden;
+      position: relative;
+      width: 100%; }
+    .beras-product-reviews-module .bpr-products-module-container .bpr-button-prev,
+    .beras-product-reviews-module .bpr-products-module-container .bpr-button-next {
+      position: absolute;
+      top: 0;
+      width: 50px;
+      height: 100%;
+      z-index: 100;
+      cursor: pointer; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-button-prev.swiper-button-disabled,
+      .beras-product-reviews-module .bpr-products-module-container .bpr-button-next.swiper-button-disabled {
+        opacity: 0.35;
+        cursor: auto;
+        /*pointer-events: none;*/ }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-button-prev span,
+      .beras-product-reviews-module .bpr-products-module-container .bpr-button-next span {
+        width: 30px;
+        height: 30px;
+        background-color: #222222;
+        border: 2px solid #fff;
+        border-radius: 15px;
+        display: block;
+        text-align: center;
+        margin-top: -15px;
+        position: absolute;
+        top: 50%; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-button-prev i,
+      .beras-product-reviews-module .bpr-products-module-container .bpr-button-next i {
+        font-size: 24px;
+        color: #fff; }
+    .beras-product-reviews-module .bpr-products-module-container .bpr-button-prev {
+      left: -30px;
+      right: auto;
+      text-align: left; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-button-prev span {
+        left: 0px;
+        right: auto; }
+    .beras-product-reviews-module .bpr-products-module-container .bpr-button-next {
+      right: -30px;
+      left: auto;
+      text-align: right; }
+      .beras-product-reviews-module .bpr-products-module-container .bpr-button-next span {
+        left: auto;
+        right: 0px; }
+  .beras-product-reviews-module p {
+    padding: 0;
+    margin: 0; }
+  @media (max-width: 767px) {
+    .beras-product-reviews-module .bpr-products-module-container .bpr-products-module-body {
+      overflow: hidden; }
+    .beras-product-reviews-module .bpr-products-module-container .bpr-button-prev {
+      left: 0;
+      right: auto;
+      text-align: left; }
+    .beras-product-reviews-module .bpr-products-module-container .bpr-button-next {
+      right: 0;
+      left: auto;
+      text-align: right; } }
+  @media (min-width: 768px) {
+    .beras-product-reviews-module .bpr-products-module-container {
+      max-width: 750px; } }
+  @media (min-width: 992px) {
+    .beras-product-reviews-module .bpr-products-module-container {
+      max-width: 970px; } }
+  @media (min-width: 1200px) {
+    .beras-product-reviews-module .bpr-products-module-container {
+      max-width: 1170px; } }
